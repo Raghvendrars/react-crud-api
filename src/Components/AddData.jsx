@@ -12,7 +12,7 @@ const AddData = () => {
         employee_age: "",
     });
 
-    const { employee_name, employee_salary, employee_age} = user;
+    const { employee_name, employee_salary, employee_age } = user;
     const onInputChange = e => {
         setUser({ ...user, [e.target.name]: e.target.value });
     };
