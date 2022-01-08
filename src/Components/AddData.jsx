@@ -19,7 +19,7 @@ const AddData = () => {
 
     const onSubmit = async e => {
         e.preventDefault();
-        await axios.post("https://infinium-property-app.herokuapp.com/data", user);
+        await axios.post("http://localhost:3003/data", user);
         history.push("/");
     };
     return (
